@@ -20,10 +20,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cts.thirdparty.exceptions.UserNotFoundException;
 import com.cts.thirdparty.model.User;
 import com.cts.thirdparty.service.UserService;
 import com.cts.thirdparty.utility.Base64Utility;
-import com.cts.thirdpartyl.exceptions.UserNotFoundException;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

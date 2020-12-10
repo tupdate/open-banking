@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cts.thirdparty.dao.UserRepository;
+import com.cts.thirdparty.exceptions.UserAlreadyExistsException;
+import com.cts.thirdparty.exceptions.UserNotFoundException;
 import com.cts.thirdparty.model.User;
-import com.cts.thirdpartyl.exceptions.UserAlreadyExistsException;
-import com.cts.thirdpartyl.exceptions.UserNotFoundException;
 
 /**
  * User service for user crud and authenticate operations

@@ -1,4 +1,4 @@
-package com.cts.thirdpartyl.exceptions;
+package com.cts.thirdparty.exceptions;
 
 public class UserNotFoundException extends Exception {
 	private static final long serialVersionUID = 1L;

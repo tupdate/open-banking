@@ -1,8 +1,8 @@
 package com.cts.thirdparty.service;
 
+import com.cts.thirdparty.exceptions.UserAlreadyExistsException;
+import com.cts.thirdparty.exceptions.UserNotFoundException;
 import com.cts.thirdparty.model.User;
-import com.cts.thirdpartyl.exceptions.UserAlreadyExistsException;
-import com.cts.thirdpartyl.exceptions.UserNotFoundException;
 
 public interface UserService {
 	public User findByUsernameAndPassword(String username, String password) throws UserNotFoundException;
