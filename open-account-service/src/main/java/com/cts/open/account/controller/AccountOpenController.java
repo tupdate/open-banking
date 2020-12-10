@@ -14,7 +14,7 @@ public class AccountOpenController {
 		return new RetirementAccount("RA000"+id, "Pankaj", "Kumar");
 	}
 	
-	@GetMapping
+	@GetMapping("/")
 	public String getInfo() {
 		return "It's working!";
 	}

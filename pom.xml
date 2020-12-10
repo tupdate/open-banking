@@ -9,7 +9,7 @@
 		<version>2.4.0</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	
+
 	<groupId>com.cts.openbanking</groupId>
 	<artifactId>open-banking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -45,6 +45,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -79,5 +91,6 @@
 	<modules>
 		<module>eureka-naming-server</module>
 		<module>open-account-service</module>
+		<module>thirdparty-org-service</module>
 	</modules>
 </project>
