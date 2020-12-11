@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <configuration debug="true">
 	<property name="LOG_FILE_LOCATION" value="logs" />
-	<property name="LOG_FILE_NAME" value="open-account-service" />
+	<property name="LOG_FILE_NAME" value="account-open-service" />
 	<property name="LOG_FILE_EXTENSION" value=".log" />
 	<timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"
 		timeReference="contextBirth" />

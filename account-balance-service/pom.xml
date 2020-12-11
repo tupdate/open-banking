@@ -11,14 +11,15 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>thirdparty-org-service</artifactId>
-	<name>thirdparty-org-service</name>
-	<packaging>jar</packaging>
+	<artifactId>account-balance-service</artifactId>
+	<name>account-balance-service</name>
 	<url>http://maven.apache.org</url>
+	<packaging>jar</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

@@ -90,7 +90,8 @@
 
 	<modules>
 		<module>eureka-naming-server</module>
-		<module>open-account-service</module>
 		<module>thirdparty-org-service</module>
+		<module>account-balance-service</module>
+		<module>account-open-service</module>
 	</modules>
 </project>

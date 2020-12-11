@@ -42,6 +42,11 @@ public class UserController {
 	private BiPredicate<String, String> stringNullCheck = (s1, s2) -> s1 != null && s2 != null && !"".equals(s1)
 			&& !"".equals(s2);
 
+	@GetMapping("/")
+	public String getInfo() {
+		return "ThirdParty Org Service is working!";
+	}
+	
 	@PostMapping("/user/register")
 	public ResponseEntity<User> createUser(@RequestBody User user) {
 		try {

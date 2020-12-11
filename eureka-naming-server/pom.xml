@@ -9,14 +9,12 @@
 		<artifactId>open-banking</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
-	<groupId>com.cts.openbanking</groupId>
+
 	<artifactId>eureka-naming-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>eureka-naming-server</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
