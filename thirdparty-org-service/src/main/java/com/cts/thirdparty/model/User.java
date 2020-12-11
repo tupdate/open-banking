@@ -36,12 +36,11 @@ public class User {
 	}
 
 	public String getPassword() {
-		return username;
-		//return new String(Base64Utility.getDecoder().decode(username));
+		return password;
 	}
 
 	public void setPassword(String password) {
-		this.password = password;//Base64Utility.getEncodedString().encodeToString(password.getBytes());
+		this.password = password;
 	}
 
 	public Date getDate() {

@@ -12,10 +12,6 @@ import com.cts.thirdparty.exceptions.UserAlreadyExistsException;
 import com.cts.thirdparty.exceptions.UserNotFoundException;
 import com.cts.thirdparty.model.User;
 
-/**
- * User service for user crud and authenticate operations
- *
- */
 @Service
 public class UserServiceImpl implements UserService {
 	private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);

@@ -14,9 +14,6 @@ import org.springframework.web.filter.GenericFilterBean;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 
-/* JWT filter for bearer token validation from header
- */
-
 public class JwtFilter extends GenericFilterBean {
 
 	@Override
