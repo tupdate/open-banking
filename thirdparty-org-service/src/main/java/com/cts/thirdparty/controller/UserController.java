@@ -28,10 +28,6 @@ import com.cts.thirdparty.utility.Base64Utility;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
-/**
- * User controller for user crud and authenticate operations
- *
- */
 @RestController
 public class UserController {
 	private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
@@ -42,7 +38,7 @@ public class UserController {
 	private BiPredicate<String, String> stringNullCheck = (s1, s2) -> s1 != null && s2 != null && !"".equals(s1)
 			&& !"".equals(s2);
 
-	@GetMapping("/")
+	@GetMapping("/name")
 	public String getInfo() {
 		return "ThirdParty Org Service is working!";
 	}
